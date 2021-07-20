@@ -1,0 +1,114 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    // window
+    "window.restoreFullscreen": true,
+    "window.newWindowDimensions": "maximized",
+    // editor
+    "editor.minimap.enabled": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "off",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        // "editor.wordWrap": "wordWrapColumn",
+        // "editor.wordWrapColumn": 120,
+        "editor.rulers": [
+            120
+        ]
+    },
+    "[markdown]": {
+        "editor.wordWrap": "off",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        // "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+        // "editor.wordWrap": "wordWrapColumn",
+        // "editor.wordWrapColumn": 80
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // files
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    // trailing-spaces
+    "trailing-spaces.trimOnSave": true,
+    // prettier
+    "prettier.resolveGlobalModules": true,
+    "prettier.printWidth": 100,
+    // markdown
+    "markdown.extension.tableFormatter.normalizeIndentation": true,
+    "markdownlint.run": "onSave",
+    // javascript
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    // git
+    "git.enableSmartCommit": true,
+    // todohighlight
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": false,
+    "todohighlight.keywords": [
+        {
+            "text": "TODO:",
+            "color": "#0000ff",
+            "backgroundColor": "yellow"
+        },
+        {
+            "text": "TBD:",
+            "color": "#0000ff",
+            "backgroundColor": "yellow"
+        },
+        {
+            "text": "ACTIVE:",
+            "color": "#0000ff",
+            "backgroundColor": "orange"
+        },
+        {
+            "text": "WIP:",
+            "color": "#0000ff",
+            "backgroundColor": "skyblue"
+        },
+        {
+            "text": "PENDING:",
+            "color": "#0000ff",
+            "backgroundColor": "lavender"
+        },
+        {
+            "text": "DONE:",
+            "color": "#0000ff",
+            "backgroundColor": "palegreen"
+        },
+        {
+            "text": "HOT:",
+            "color": "#fff",
+            "backgroundColor": "#f00"
+        },
+        {
+            "text": "FAIL:",
+            "color": "#ffffff",
+            "backgroundColor": "maroon"
+        },
+        {
+            "text": "APPOINTMENT:",
+            "color": "white",
+            "backgroundColor": "purple"
+        }
+    ],
+    "explorer.openEditors.visible": 0,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": false,
+    "eslint.alwaysShowStatus": true,
+    "cSpell.enabled": false,
+    "workbench.preferredDarkColorTheme": "Default Light+",
+    "cSpell.language": "en,en-US",
+    "update.mode": "start",
+    "update.showReleaseNotes": false,
+    "gitlens.currentLine.enabled": false,
+    "workbench.colorTheme": "Default Light+",
+    "editor.accessibilitySupport": "off",
+    "window.zoomLevel": 1,
+    "sanity.openJSONFile": true,
+    "security.workspace.trust.startupPrompt": "never",
+    "security.workspace.trust.untrustedFiles": "open"
+}
